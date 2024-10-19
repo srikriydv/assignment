@@ -93,20 +93,6 @@ const LandingPage = () => {
           </Col>
         ))}
       </Row>
-
-      <style jsx>{`
-        h1 {
-          color: #333;
-        }
-
-        .ant-card {
-          transition: transform 0.2s;
-        }
-
-        .ant-card:hover {
-          transform: scale(1.05);
-        }
-      `}</style>
     </div>
   );
 };
